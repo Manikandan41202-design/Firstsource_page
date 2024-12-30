@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-image: url('IMG/bg_img.jpg'); background-size: cover; height: 100vh;">
+
+  <nav class="navbar">
+    <div class="logo-container">
+        <img class="logo" src="IMG/logo.png" alt="Description of image">
+    </div>
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Sharepoint</a></li>
+      <li><a href="#about">PagerDuty</a></li>
+      <li><a href="#services">User Portal</a></li>
+      <li><a href="#contact">Support Portal</a></li>
+      <li><a href="#services">FirstPlace</a></li>
+      <li><a href="#contact">ACE</a></li>
+    </ul>
+  </nav>
+
+<!-- HEADER PAGE -->
+
+  <div>
+    <header class="header col-lg-10">
+      <h1>WELCOME TO <span class="tracker">MY PAGE</span></h1>
+    </header>
+    <div class="clock-container col-lg-2 ">
+      <div class="time" id="time"></div>
+      <div class="date" id="date"></div>
+    </div>
+    
+  </div>
+
+  <nav class="navbar">
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="AAT.html">AAT</a></li>
+      <li><a href="reports.html">Reports</a></li>
+      <li><a href="RBMQ.html">RBMQ</a></li>
+      <li><a href="GAW.html">GAW</a></li>
+      <li><a href="SQLUtility.html">SQLUtility</a></li>
+    </ul>
+  </nav>
+
+  <!-- CONTENT PAGE -->
+
+  <div class="container" style="margin-top:50px">
+    <!-- <div class="row">
+      <div class="content col-lg-2">
+        <h4>OTHER RMO</h4>
+        <h6><a href="">BSC - RMO Cloud</a></h6>
+        <h6><a href="">Cigna Dental - RMO Cloud</a></h6> 
+        <h6><a href="">CIGNA - CHATTANOOGA (Dental&Medical)</a></h6>   
+        <h6><a href="">CIGNA MEDICAL - Hermes RMO</a></h6>
+        <h6><a href="">EMBLEM_ON - PREM</a></h6> 
+        <h6><a href="">EMBLEM - Cloud</a></h6> 
+        <h6><a href="">GOLDEN RULE</a></h6>
+        <h6><a href="">CAMELBACK</a></h6> 
+        <h6><a href="">ODAP GHX</a></h6>   
+        <h6><a href="">HUDSON RMO</a></h6>
+        <h6><a href="">HEALTH FIRST RMO</a></h6> 
+        <h6><a href="">SENTARA RMO</a></h6> 
+      </div>
+      <div class="content col-lg-2"> 
+        <h4>DENALI RMO</h4>
+        <h6><a href="">CHENNAI</a></h6>
+        <h6><a href="">CENTRAL</a></h6>
+        <h6><a href="">SLC</a></h6>
+      </div>
+      <div class="content col-lg-2"> 
+        <h4>OFFSHORE DATA - ENTRY</h4>
+        <h6><a href="">CIGNA DENTAL - DE</a></h6>
+        <h6><a href="">CIGNA MEDICAL HERMES - DE</a></h6>
+        <h6><a href="">BSC DE</a></h6>
+        <h6><a href="">EVEREST_IWA</a></h6>
+        <h6><a href="">EVEREST_UNETKA2</a></h6>
+        <h6><a href="">AX_BILLTYPE - OCR</a></h6>
+        <h6><a href="">HEALTHFIRST_DE</a></h6>
+        <h6><a href="">OXFORD_DE</a></h6>
+        <h6><a href="">OXFORD_DE_STU</a></h6>
+        <h6><a href="">EVERESTDE_STU</a></h6>
+        <h6><a href="">HOOSIER</a></h6>
+        <h6><a href="">EVEREST_PONDY</a></h6>
+        <h6><a href="">EVEREST_TRICHY</a></h6>
+      </div>
+      <div class="content col-lg-2">
+        <h4>ONSHORE DATA - ENTRY</h4>
+        <h6><a href="">CSP DE</a></h6>
+        <h6><a href="">LIBERTY DE</a></h6>
+        <h6><a href="">NMC DE</a></h6>
+        <h6><a href="">CSP PRO</a></h6>
+        <h6><a href="">HUDSON PRO</a></h6>
+        <h6><a href="">NMC PRO</a></h6>
+        <h6><a href="">KNG_OCRENGINES</a></h6>
+        <h6><a href="">HEALTHFIRST_DE</a></h6>
+        <h6><a href="">SENTARA_DE</a></h6>   
+      </div>
+      <div class="content col-lg-2"> 
+        <h4>GHX - PROJECTS</h4>
+        <h6><a href="">SOLITAIRE - CHN</a></h6>
+        <h6><a href="">SOLITAIRE - PTC</a></h6>
+        <h6><a href="">ODAP - PTC</a></h6>
+        <h6><a href="">ODAP - CHN</a></h6>
+      </div>
+      <div class="content col-lg-2"> 
+        <h4>CASE MANAGEMENT</h4>
+        <h6><a href="">LBG</a></h6>
+        <h6><a href="">MOLINA</a></h6>
+        <h6><a href="">BYRIDER</a></h6>
+      </div>
+    </div> -->
+  </div>
+
+<!-- FOOTER PAGE -->
+
+  <!-- <footer class="footer">
+    <div class="contact_us">
+        <div class="col-lg-6">
+            <h4>Contact Us:</h4>
+            <h6><a href="">Facebook</a></h6>
+            <h6><a href="">Instagram</a></h6>
+            <h6><a href="">LinkedIn</a></h6>
+            <h6><a href="">Twitter</a></h6>
+        </div>
+    </div>
+    
+  </footer> -->
+
+
+
+  <script src="JS/clock.js"></script>
+  <script src="JS/script.js"></script>
+
+</body>
+</html>
+
+
